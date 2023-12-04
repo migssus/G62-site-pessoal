@@ -1,0 +1,56 @@
+body{
+    background-color: black;
+    text-align: center;
+}
+#welcome {
+    padding: 80px;
+    background: hsla(358, 100%, 50%, 1);
+
+background: radial-gradient(circle, hsla(358, 100%, 50%, 1) 0%, hsla(15, 100%, 50%, 1) 50%, hsla(0, 0%, 0%, 1) 64%);
+
+background: -moz-radial-gradient(circle, hsla(358, 100%, 50%, 1) 0%, hsla(15, 100%, 50%, 1) 50%, hsla(0, 0%, 0%, 1) 64%);
+
+background: -webkit-radial-gradient(circle, hsla(358, 100%, 50%, 1) 0%, hsla(15, 100%, 50%, 1) 50%, hsla(0, 0%, 0%, 1) 64%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#FF0008", endColorstr="#FF4000", GradientType=1 );
+}
+p{
+    color: white;
+}
+h1{
+    color: white;  
+}
+h2{
+    color: white;  
+}
+.menu{
+    background-color: black;
+    color: white ;
+    list-style  : none ;
+    position: fixed;
+    top: 0px ;
+    z-index: 10 ;
+    width: 100% ;
+    margin-top: 0px;
+}
+.links{
+display: inline;
+padding-left: 25px;
+padding-right:33px ;
+font-family:fantasy ;
+font-size: 20px;
+}
+.links:hover{
+ font-size: 50px;   
+}
+#name{
+font-family: 'Pacifico', cursive;
+font-size: 50px;
+}
+#bio{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30PX;
+    }
+a {
+    text-decoration: none;
+}
